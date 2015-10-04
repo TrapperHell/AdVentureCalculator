@@ -117,6 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="txtKCredits.Text" xml:space="preserve">
+    <value>I would like to extend my gratitude to the following people for the their contribution - knowingly or otherwise:
+   Kongregate user: biggreen200     (Angel Investor formula)
+   Kongregate user: Muskar          (Waiting Angel Investor formula)
+   Kongregate user: Empresstamar    (Business Profit graph idea)
+   Kongregate user: Confuseh        (Export File parsing)
+   Reddit user:     JesterXO        (Business base values and calculations)
+
+LZF Compression:
+   This tool uses an LZF compression algorithm developed by Roman Atachiants (a port of Mark Lehmann's LibLZF) and based on Oren J. Maurice's original adaptation.
+   https://csharplzfcompression.codeplex.com/
+
+This software is provided under GNU General Public License v2, and can be obtained from: https://github.com/TrapperHell/AdVentureCalculator
+
+&gt;&gt; TrapperHell &lt;&lt;
+
+Additionally, thanks fly out to all those that have been of help in one way or another.</value>
+  </data>
   <data name="txtWelcomeNote.Text" xml:space="preserve">
     <value>Welcome to AdVenture Calculator.
 
@@ -124,7 +142,7 @@ The 'Calculations' tab allows you to perform a number of calculations:
 -&gt; Total Earned Profit / second
 -&gt; Business Purchase Cost
 -&gt; Waiting Time for a monetary goal
--&gt; Money needed for an Angel Investor goal [TO-DO]
+-&gt; Money needed for an Angel Investor goal
 
 However before performing calculations, you need to provide some information:
 
@@ -133,31 +151,11 @@ To calculate profit and waiting time you need to select the correct Business lev
 </value>
   </data>
   <data name="txtEndorsement.Text" xml:space="preserve">
-    <value>This tool is intended to be a form of sandbox environment for AdVenture Capitalist (v. 1.0.0.977-3f7baae - but recklessly updated to match v. 2.0.1.1360-9d75c49) by Hyper Hippo.
+    <value>This tool is intended to be a form of sandbox environment for AdVenture Capitalist (v. 1.0.0.977-3f7baae - v. 2.0.1.1360-9d75c49) by Hyper Hippo.
 
-It is NOT endorsed by or affiliated with Hyper Hippo.
+It is NOT endorsed by or affiliated with Hyper Hippo. Game calculations and main icon are all property of AdVenture Capitalist and have been used with permission.
 
-Game calculations and main icon are all property of AdVenture Capitalist and have been used with permission.
-
-AdVenture Calculator has been created by:
- -&gt; Justin C. (TrapperHell)
- -&gt; Ryan G. (Gattuso)
-
-This software is provided under GNU General Public License v2, and can be obtained from: https://github.com/TrapperHell/AdVentureCalculator
-
-Notes:
--&gt; Since I have stopped playing the game altogether, I do not plan on releasing updates anytime soon...
--&gt; The last proper update of the code has been quite some time ago, and the latest additions where hastily made to match the above-mentioned version of the game
--&gt; This calculator is only applicable for Earth - however the way it is designed, it should be fairly simple to include Moon (in fact there are already some references ;) ), and *MAYBE* even Mars
--&gt; When first created, it was intended as a quick, dirty tool to perform calculations, however by time it has grown quite a bit. Some code is quite messy...
--&gt; If you decide to modify the code (e.g. refactor code or improve the UI), I'd appreciate if you drop me a line at trapper-hell@hotmail.com :)
-
-Thanks to the following people:
- -&gt; Kongregate user: biggreen200 - for the angel investors formula
- -&gt; Kongregate user: Confuseh - for the export reading notes
- -&gt; Kongregate user: Empresstamar - for the business profit graph idea
- -&gt; Kongregate user: Muskar - for the waiting angel investors formula
- -&gt; Reddit user: JesterXO - for the Spreadsheet calculations and base values</value>
+For more credits, please check the last tab.</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

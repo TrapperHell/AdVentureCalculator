@@ -5,6 +5,8 @@ namespace AdVentureCalculator
 {
     class DecimalTruncateFormatProvider : IFormatProvider, ICustomFormatter
     {
+        const string FORMAT_EXCEPTION_ERROR_MESSAGE = "The format of '{0}' is invalid.";
+
         public object GetFormat(Type formatType)
         {
             if (formatType == typeof(ICustomFormatter))
@@ -24,7 +26,7 @@ namespace AdVentureCalculator
                 }
                 catch (FormatException)
                 {
-                    throw new FormatException(string.Format("The format of '{0}' is invalid.", format));
+                    throw new FormatException(String.Format(FORMAT_EXCEPTION_ERROR_MESSAGE, format));
                 }
             }
 
@@ -46,7 +48,7 @@ namespace AdVentureCalculator
                         }
                         else
                         {
-                            throw new FormatException(string.Format("The format of '{0}' is invalid.", format));
+                            throw new FormatException(String.Format(FORMAT_EXCEPTION_ERROR_MESSAGE, format));
                         }
                     }
                 }
@@ -61,7 +63,7 @@ namespace AdVentureCalculator
             }
             catch (FormatException)
             {
-                throw new FormatException(string.Format("The format of '{0}' is invalid.", format));
+                throw new FormatException(String.Format(FORMAT_EXCEPTION_ERROR_MESSAGE, format));
             }
         }
 

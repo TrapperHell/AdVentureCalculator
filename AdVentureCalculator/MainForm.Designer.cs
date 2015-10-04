@@ -90,6 +90,9 @@
             this.btnERReadExport = new System.Windows.Forms.Button();
             this.txtERExportText = new System.Windows.Forms.TextBox();
             this.lblERExportText = new System.Windows.Forms.Label();
+            this.tbpCredits = new System.Windows.Forms.TabPage();
+            this.txtKCredits = new System.Windows.Forms.TextBox();
+            this.lblKCredits = new System.Windows.Forms.Label();
             this.txtEndorsement = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.nudCCurrentBuildingCount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCBuyCount)).BeginInit();
@@ -115,6 +118,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudAIEffectiveness)).BeginInit();
             this.tbpManagers.SuspendLayout();
             this.tbpExportReader.SuspendLayout();
+            this.tbpCredits.SuspendLayout();
             this.SuspendLayout();
             // 
             // cmbCBusiness
@@ -212,6 +216,7 @@
             this.tbcMain.Controls.Add(this.tbpAngelInvestors);
             this.tbcMain.Controls.Add(this.tbpManagers);
             this.tbcMain.Controls.Add(this.tbpExportReader);
+            this.tbcMain.Controls.Add(this.tbpCredits);
             this.tbcMain.Location = new System.Drawing.Point(12, 12);
             this.tbcMain.Name = "tbcMain";
             this.tbcMain.SelectedIndex = 0;
@@ -787,13 +792,53 @@
             this.lblERExportText.TabIndex = 0;
             this.lblERExportText.Text = "Export Text:";
             // 
+            // tbpCredits
+            // 
+            this.tbpCredits.Controls.Add(this.txtKCredits);
+            this.tbpCredits.Controls.Add(this.lblKCredits);
+            this.tbpCredits.Location = new System.Drawing.Point(4, 22);
+            this.tbpCredits.Name = "tbpCredits";
+            this.tbpCredits.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpCredits.Size = new System.Drawing.Size(802, 401);
+            this.tbpCredits.TabIndex = 7;
+            this.tbpCredits.Text = "Credits";
+            this.tbpCredits.UseVisualStyleBackColor = true;
+            // 
+            // txtKCredits
+            // 
+            this.txtKCredits.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtKCredits.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtKCredits.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtKCredits.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtKCredits.Location = new System.Drawing.Point(6, 21);
+            this.txtKCredits.Multiline = true;
+            this.txtKCredits.Name = "txtKCredits";
+            this.txtKCredits.ReadOnly = true;
+            this.txtKCredits.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtKCredits.Size = new System.Drawing.Size(790, 374);
+            this.txtKCredits.TabIndex = 3;
+            this.txtKCredits.Text = resources.GetString("txtKCredits.Text");
+            // 
+            // lblKCredits
+            // 
+            this.lblKCredits.AutoSize = true;
+            this.lblKCredits.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblKCredits.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKCredits.Location = new System.Drawing.Point(3, 3);
+            this.lblKCredits.Name = "lblKCredits";
+            this.lblKCredits.Size = new System.Drawing.Size(57, 15);
+            this.lblKCredits.TabIndex = 2;
+            this.lblKCredits.Text = "Credits:";
+            // 
             // txtEndorsement
             // 
             this.txtEndorsement.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtEndorsement.BackColor = System.Drawing.Color.DarkKhaki;
             this.txtEndorsement.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtEndorsement.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEndorsement.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEndorsement.Location = new System.Drawing.Point(12, 441);
             this.txtEndorsement.Multiline = true;
             this.txtEndorsement.Name = "txtEndorsement";
@@ -854,6 +899,8 @@
             this.tbpManagers.PerformLayout();
             this.tbpExportReader.ResumeLayout(false);
             this.tbpExportReader.PerformLayout();
+            this.tbpCredits.ResumeLayout(false);
+            this.tbpCredits.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -920,5 +967,8 @@
         private System.Windows.Forms.Label lblCEarnPerCycle;
         private System.Windows.Forms.Label lblCEarnPerSecond;
         private System.Windows.Forms.TextBox txtEndorsement;
+        private System.Windows.Forms.TabPage tbpCredits;
+        private System.Windows.Forms.TextBox txtKCredits;
+        private System.Windows.Forms.Label lblKCredits;
     }
 }
